@@ -62,14 +62,6 @@ img.pp {
     width: 150px;
 }
 
-div.contact {
-    background-color: #FFCCC9;
-}
-
-.bi-question-circle {
-    content: "\f505";
-}
-
 .feature {
     display: inline-flex;
     align-items: center;
@@ -79,19 +71,22 @@ div.contact {
     font-size: 1.5rem;
 }
 
-
-.bi-chat-dots::before{
+.bi-chat-dots::before {
     content: "\f24a";
 }
+
 .bi-people::before {
     content: "\f4d0";
 }
-.bi-question-circle::before{
+
+.bi-question-circle::before {
     content: "\f505";
 }
-.bi-telephone::before{
+
+.bi-telephone::before {
     content: "\f5c1";
 }
-.bi-envelope::before{
+
+.bi-envelope::before {
     content: "\f32f";
 }
