@@ -5,42 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAK STORE</title>
-    <link rel="icon" type="image/x-icon" href="image/icon1.png">
+    <link rel="icon" type="image/x-icon" href="image/icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/icofont/icofont.min.css">
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg">
         <div class="container px-5">
-            <a class="navbar-brand" href="index.html">TAK STORE</a>
+            <div class="position-relative">
+                <img class="icon" src="/image/icon.png" alt="">
+                <a class="stretched-link navbar-brand fw-bolder" href="index.html">TAK STORE</a>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false"
                 aria-label="toggle navigation"><span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsupportedcontent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">CONTACT</a></li>
+                <ul class="navbar-nav fw-bolder ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact.html">CONTACT</a></li>
                     <li class="nav-item"><a class="nav-link" href="">PRICING</a></li>
                     <li class="nav-item"><a class="nav-link" href="">FAQ</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false" id="navbardropdownblog">BLOG</a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbardropdownblog">
-                            <li><a class="dropdown-item" href="#">BLOG HOME</a></li>
-                            <li><a class="dropdown-item" href="#">BLOG POST</a></li>
+                            <li><a class="dropdown-item" href="">BLOG HOME</a></li>
+                            <li><a class="dropdown-item" href="">BLOG POST</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false" id="navbardropdownportfolio">PORTFOLIO</a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbardropdownportfolio">
-                            <li><a class="dropdown-item" href="#">PORTFOLIO OVERVIEW</a></li>
-                            <li><a class="dropdown-item" href="#">PORTFOLIO ITEM</a></li>
+                            <li><a class="dropdown-item" href="">PORTFOLIO OVERVIEW</a></li>
+                            <li><a class="dropdown-item" href="">PORTFOLIO ITEM</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -48,61 +52,69 @@
         </div>
     </nav>
 
-    <header class="bg-dark py-5">
-        <div class="container px-5 text-white">
+    <header class="home py-5">
+        <div class="container mt-xxl-3 px-5">
             <div class="row gx-5 align-items-center justify-content-center">
-                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="col-lg-8 col-xl-5 col-xxl-6">
                     <div class="my-5 text-center text-xl-start">
-                        <h1 class="display-5 fw-bolder">TAK STORE</h1>
-                        <p class="lead fw-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Necessitatibus harum voluptatem a
-                            non rerum debitis aspernatur quisquam quaerat quas vitae?</p>
+                        <h1 class="display-5 fw-bolder">No More Running from Market to Market!</h1>
+                        <p class="lead fw-normal mb-4">We offer you the freshest
+                            and most natural products at the most affordable prices. Discover now to color your healthy
+                            life, and let your tables be full of flavor.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                            <a class="btn btn-primary btn-lg px-4 me-3" href="#features">a</a>
-                            <a class="btn btn-outline-light btn-lg px-4 me-3" href="#">b</a>
+                            <a class="btn btn-primary btn-lg px-4 me-3" href="#features">Get Started</a>
+                            <a class="btn btn-outline-light btn-lg px-4 me-3" href="/about.html">Learn More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                    <img class="img-fluid rounded-3 my-5" src="/image/image1.jpg" alt="">
+                <div class="col-xl-7 col-xxl-6 d-none d-xl-block text-center">
+                    <img class="img-fluid rounded-5 " src="/image/image1.jpg" alt="">
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="py-5" id="features">
+    <section id="features">
         <div class="container px-5 my-5">
             <div class="row gx-5">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h2 class="fw-bolder mb-0">abc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-                        recusandae beatae
-                        voluptatum neque minima aperiam omnis ea mollitia sint tempore.</h2>
+                <div class="col-lg-4 mb-5 mb-lg-0 mt-lg-5">
+                    <h2 class="fw-bolder mb-0">"The easiest way to market is at your door!"</h2>
                 </div>
-                <div class="col-lg-8">
+                <div class="features col-lg-8 shadow rounded-5 pt-5 px-5">
                     <div class="row gx-5 row-cols-1 row-cols-md-2">
                         <div class="col mb-5 h-100">
-                            <h2 class="h5">featured title</h2>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aut autem
-                                amet error
-                                doloribus alias perferendis, veritatis sunt rem a!</p>
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                    <i class="icofont-fast-delivery"></i>
+                                </div>
+                            <h2 class="h5">Fast Delivery</h2>
+                            <p class="mb-0">We work hard to ensure that your orders are delivered quickly and reliably.
+                                The freshness and flavour you need will be with you in no time!</p>
                         </div>
                         <div class="col mb-5 h-100">
-                            <h2 class="h5">featured title</h2>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aut autem
-                                amet error
-                                doloribus alias perferendis, veritatis sunt rem a!</p>
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="icofont-shopping-cart"></i>
+                            </div>
+                            <h2 class="h5">Reduce Shopping Stress</h2>
+                            <p class="mb-0">Order with one click, let us do the shopping! To ease the daily shopping
+                                stress of our valued customers, we offer a practical and user-friendly shopping
+                                experience.</p>
                         </div>
                         <div class="col mb-5 h-100">
-                            <h2 class="h5">featured title</h2>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aut autem
-                                amet error
-                                doloribus alias perferendis, veritatis sunt rem a!</p>
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="icofont-money-bag"></i>
+                            </div>
+                            <h2 class="h5">Cheap Price</h2>
+                            <p class="mb-0">We bring healthy nutrition to everyone at affordable prices. We are on a
+                                mission to make your shopping economical by offering you quality products at the most
+                                affordable prices.</p>
                         </div>
                         <div class="col mb-5 h-100">
-                            <h2 class="h5">featured title</h2>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aut autem
-                                amet error
-                                doloribus alias perferendis, veritatis sunt rem a!</p>
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="icofont-fruits"></i>
+                            </div>
+                            <h2 class="h5">Fresh Produce</h2>
+                            <p class="mb-0">We always strive to bring you the freshest and most natural products. Our
+                                priority is to bring freshness and quality to your table.</p>
                         </div>
                     </div>
                 </div>
@@ -113,13 +125,13 @@
     <div class="bg-light py-5">
         <div class="container px-5 my-5">
             <div class="row gx-5 justify-content-center">
-                <div class="col-lg-10 col-xl-7">
-                    <div class="text-center">
-                        <div class="fs-4 mb-4 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Reprehenderit est dolores nisi
-                            doloremque odio, atque voluptate animi voluptatem eveniet a.</div>
+                <div class="col-lg-10 col-xl-7 shadow rounded-5 p-5">
+                    <div class="text-center mx-5">
+                        <div class="fs-4 mb-2 fst-italic">"I really enjoy working with you! My orders always arrive fast
+                            and fresh. Your prices are very reasonable and ordering is very easy. It is a real pleasure
+                            to work with you, thank you!"</div>
                         <div class="d-flex align-items-center justify-content-center">
-                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                            <img class="sefa rounded-circle me-3" src="/image/file.jpg" alt="">
                             <div class="fw-bolder">Sefa ORDU / CEO, Ordulu Store </div>
                         </div>
                     </div>
@@ -133,51 +145,66 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
-                        <h2 class="fw-bolder">from our blog</h2>
-                        <p class="lead fw-normal text-muted mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Id laboriosam delectus
-                            nam amet ipsa harum praesentium consectetur totam dolore voluptates.</p>
+                        <h2 class="fw-bolder">From Our Blog</h2>
+                        <p class="lead fw-normal text-muted mb-5">We have rounded up this week's top news stories for
+                            you.</p>
                     </div>
                 </div>
             </div>
             <div class="row gx-5">
                 <div class="col-lg-4 mb-5">
                     <div class="card h-100 shadow border-0">
-                        <img class="card-img-top" src="" alt="">
+                        <img class="card-img-top" src="/image/image2.png" alt="">
                         <div class="card-body p-4">
                             <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                             <a class="stretched-link text-decoration-none link-dark" href="#">
-                                <h5 class="card-title mb-3">blog post title</h5>
+                                <h5 class="card-title mb-3">Easy Address for Shopping</h5>
                             </a>
-                            <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-                                deleniti?</p>
+                            <p class="card-text mb-0">After TAK STORE, people think twice before they go to the market.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card h-100 shadow border-0">
-                        <img class="card-img-top" src="" alt="">
+                        <img class="card-img-top" src="/image/image3.png" alt="">
                         <div class="card-body p-4">
                             <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                             <a class="stretched-link text-decoration-none link-dark" href="#">
-                                <h5 class="card-title mb-3">blog post title</h5>
+                                <h5 class="card-title mb-3">Defies Market Prices</h5>
                             </a>
-                            <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-                                deleniti?</p>
+                            <p class="card-text mb-0">Very expensive market prices.TAK STORE sells its products at below
+                                market prices.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card h-100 shadow border-0">
-                        <img class="card-img-top" src="" alt="">
+                        <img class="card-img-top" src="/image/image4.png" alt="">
                         <div class="card-body p-4">
                             <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                             <a class="stretched-link text-decoration-none link-dark" href="#">
-                                <h5 class="card-title mb-3">blog post title</h5>
+                                <h5 class="card-title mb-3">People Fleeing</h5>
                             </a>
-                            <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-                                deleniti?</p>
+                            <p class="card-text mb-0">Now people are fleeing from the markets, preferring TAK STORE</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                <div
+                    class="d-flex align-items-center justify-content-between flex-column flex-lg-row text-center text-xl-start">
+                    <div class="mb-4 mb-xl-0">
+                        <div class="fs-4 fw-bolder text-white">New products, delivered to you.</div>
+                        <div class="small text-white">Sing up for our newsletter for the latest updates.</div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="input-group mb-2">
+                            <input class="form-control rounded-3" type="text" placeholder="Email address...">
+                            <button class="btn btn-outline-light rounded-3 ms-1" id="button-newsletter"
+                                type="button"><span class="fw-bolder small">Sing Up</span></button>
+                        </div>
+                        <div class="small text-white-50">We care about privacy, and will never share your data.</div>
                     </div>
                 </div>
             </div>
@@ -188,14 +215,14 @@
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small mb-0 text-white">Copyright &#169; Your Website 2023</div>
+                    <div class="small mb-0 text-white">Copyright &#169; Selahattin TAK 2023</div>
                 </div>
                 <div class="col-auto">
-                    <a class="link-light small" href="#">Privacy</a>
+                    <a class="link-light small" href="">Privacy</a>
                     <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#">Terms</a>
+                    <a class="link-light small" href="">Terms</a>
                     <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#">Contact</a>
+                    <a class="link-light small" href="/contact.html">Contact</a>
                 </div>
             </div>
         </div>

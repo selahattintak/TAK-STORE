@@ -1,0 +1,92 @@
+/*color
+#502419 koyu kırmızı
+#FFFFC7 açık sarı
+#0A4007 koyu yeşil
+#FFCCC9 açık pembe
+#052F5F koyu lacivert
+*/
+body {
+    background-color: #FFFFC7;
+    color: #052F5F;
+}
+
+body.contact {
+    background-color: #052F5F;
+}
+
+img.icon {
+    width: 40px;
+    height: 40px;
+}
+
+nav,
+.dropdown-menu {
+    background-color: #FFFFC7;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 8px;
+}
+
+.dropdown-item:hover {
+    background-color: #0A4007;
+    color: #FFFFC7;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #0A4007;
+}
+
+.navbar-toggler {
+    color: #0A4007;
+}
+
+.home,
+.about {
+    background-color: #502419f0;
+    color: #FFFFC7;
+}
+
+.features {
+    color: #052F5F;
+    background: #FFCCC9;
+}
+
+img.sefa {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+img.pp {
+    width: 150px;
+}
+
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
+
+.bi-chat-dots::before {
+    content: "\f24a";
+}
+
+.bi-people::before {
+    content: "\f4d0";
+}
+
+.bi-question-circle::before {
+    content: "\f505";
+}
+
+.bi-telephone::before {
+    content: "\f5c1";
+}
+
+.bi-envelope::before {
+    content: "\f32f";
+}
